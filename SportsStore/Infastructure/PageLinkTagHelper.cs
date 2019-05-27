@@ -1,15 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using SportsStore.Models.ViewModels;
 
-namespace SportsStore.Infastructure
+namespace SportsStore.Infrastructure
 {
 
     [HtmlTargetElement("div", Attributes = "page-model")]
@@ -26,7 +22,7 @@ namespace SportsStore.Infastructure
         [HtmlAttributeNotBound]
         public ViewContext ViewContext { get; set; }
 
-        //public PagingInfo PageModel { get; set; }
+        public PagingInfo PageModel { get; set; }
 
         public string PageAction { get; set; }
 
@@ -44,7 +40,7 @@ namespace SportsStore.Infastructure
             {
                 TagBuilder tag = new TagBuilder("a");
                 tag.Attributes["href"] = urlHelper.Action(PageAction,
-                    new { productPage = i });
+                   new { productPage = i });
                 if (PageClassesEnabled)
                 {
                     tag.AddCssClass(PageClass);
@@ -57,5 +53,4 @@ namespace SportsStore.Infastructure
             output.Content.AppendHtml(result.InnerHtml);
         }
     }
-    
 }
