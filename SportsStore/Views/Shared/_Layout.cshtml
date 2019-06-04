@@ -3,10 +3,9 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-
-    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
-   
+    <link rel="stylesheet"
+          asp-href-include="/lib/bootstrap/dist/**/*.min.css"
+          asp-href-exclude="**/*-reboot*,**/*-grid*" />
     <title>SportsStore</title>
 </head>
 <body>
@@ -15,7 +14,7 @@
     </div>
     <div class="row m-1 p-1">
         <div id="categories" class="col-3">
-            Put something useful here later
+            @await Component.InvokeAsync("NavigationMenu")
         </div>
         <div class="col-9">
             @RenderBody()
