@@ -1,10 +1,8 @@
 ﻿using System;
 
-namespace SportsStore.Models.ViewModels
-{
+namespace SportsStore.Models.ViewModels {
 
-    public class PagingInfo
-    {
+    public class PagingInfo {
         public int TotalItems { get; set; }
         public int ItemsPerPage { get; set; }
         public int CurrentPage { get; set; }
