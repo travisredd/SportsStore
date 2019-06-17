@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\reddt\\source\\repos\\SportsStore\\SportsStore\\SportsStore.csproj": {}
+    "C:\\Users\\reddt\\Source\\Repos\\SportsStore\\SportsStore\\SportsStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\reddt\\source\\repos\\SportsStore\\SportsStore\\SportsStore.csproj": {
+    "C:\\Users\\reddt\\Source\\Repos\\SportsStore\\SportsStore\\SportsStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\reddt\\source\\repos\\SportsStore\\SportsStore\\SportsStore.csproj",
+        "projectUniqueName": "C:\\Users\\reddt\\Source\\Repos\\SportsStore\\SportsStore\\SportsStore.csproj",
         "projectName": "SportsStore",
-        "projectPath": "C:\\Users\\reddt\\source\\repos\\SportsStore\\SportsStore\\SportsStore.csproj",
+        "projectPath": "C:\\Users\\reddt\\Source\\Repos\\SportsStore\\SportsStore\\SportsStore.csproj",
         "packagesPath": "C:\\Users\\reddt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\reddt\\source\\repos\\SportsStore\\SportsStore\\obj\\",
+        "outputPath": "C:\\Users\\reddt\\Source\\Repos\\SportsStore\\SportsStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
