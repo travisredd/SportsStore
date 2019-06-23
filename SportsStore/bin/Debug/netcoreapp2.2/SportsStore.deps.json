@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "8b5493afc66e62b2c575a0dcbeb30bdc243fb156"
+    "signature": "4cd268acc6072793b11322cda9042dda7491f65e"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.2": {
       "SportsStore/1.0.0": {
         "dependencies": {
+          "FontAwesome": "4.7.0",
           "Microsoft.AspNetCore.All": "2.0.0",
           "Microsoft.NETCore.App": "2.2.0"
         },
@@ -34,6 +35,7 @@
           "SportsStore.dll": {}
         }
       },
+      "FontAwesome/4.7.0": {},
       "Libuv/1.10.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.2.0"
@@ -4511,6 +4513,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FontAwesome/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qchE3W5e68f31XbYpxqgidhO9gr022mtGmaDXcPD2/ZBN6HFVH4W6Sr5xGnk2ufhcRJkD4AcIJBFMWg0O3fkpA==",
+      "path": "fontawesome/4.7.0",
+      "hashPath": "fontawesome.4.7.0.nupkg.sha512"
     },
     "Libuv/1.10.0": {
       "type": "package",
