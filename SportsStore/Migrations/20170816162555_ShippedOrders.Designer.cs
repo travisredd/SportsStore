@@ -11,7 +11,7 @@ using System;
 namespace SportsStore.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190623194120_ShippedOrders")]
+    [Migration("20170816162555_ShippedOrders")]
     partial class ShippedOrders
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

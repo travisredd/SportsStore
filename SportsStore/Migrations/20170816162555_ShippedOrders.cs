@@ -23,5 +23,4 @@ namespace SportsStore.Migrations
                 table: "Orders");
         }
     }
-
 }
